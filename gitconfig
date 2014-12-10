@@ -4,7 +4,7 @@
 [core]
 	autocrlf = input
 	safecrlf = true
-	excludesfile = /Users/Clara/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	editor = nano
 [alias]
 	co = checkout
