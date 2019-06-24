@@ -7,7 +7,7 @@
 	autocrlf = input
 	safecrlf = true
 	excludesfile = ~/.gitignore_global
-	editor = nano
+	editor = vim
 [alias]
 	co = checkout
 	ci = commit
@@ -28,7 +28,7 @@
 	tool = kdiff3
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
