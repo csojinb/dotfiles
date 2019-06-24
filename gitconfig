@@ -1,5 +1,6 @@
 [user]
 	name = Clara Bennett
+	email = csojinb@gmail.com
 [include]
 	path = ~/.gitconfig_local
 [core]
