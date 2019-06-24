@@ -86,11 +86,5 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-# AWS executable
-export PATH=$PATH:$HOME/bin/aws/eb/macosx/python2.7
-
-# Java VM
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_65-b14-462.jdk/Contents/Home/
-
 # Local zshrc, to exclude from source control
 source $HOME/.zshrc_local
