@@ -2,8 +2,8 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # Virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+# export WORKON_HOME=$HOME/.virtualenvs
+# source /usr/local/bin/virtualenvwrapper.sh
 
 # Path to local bin
 export PATH=/usr/local/bin:$PATH
